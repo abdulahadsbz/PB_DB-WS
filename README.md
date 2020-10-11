@@ -22,8 +22,19 @@ the code is in a very early stage i will improve it after im done with my other 
 ### What You Can Do  
 feel free to make a pull request to improve the code or add a feature
 
+## Why Am I Getting Errors On Some Draws  
+i have put a @ symbol in some draw links in the Info.txt file  
+this is done because those links were not ordered correctly and  
+may have incorrect information  
+
+another reason maybe some network errors or if you may get  
+a error telling you the bonds in a draw were very less (this error  
+is usually correct)  
+
+
 ## What Does It Do And How  
 it scrapes prize bond pages on https://hamariweb.com using the requests library after  
 scraping it parses it using bs4 and then it gets all the bond info like PrizeBondNumber,
 PrizeBondRank, PrizeBondValue, DrawNumber, DrawDate, DrawLocation to it and then adds all of these to a sqlite3
 database
+
