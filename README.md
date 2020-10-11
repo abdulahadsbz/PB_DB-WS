@@ -9,9 +9,7 @@ but that will come with some time
 ### Steps To Run  
 1. download all the files in src to a folder  
 2. run PBDB.py first then run PBWS.py  
-3. Select which value bonds you want to add to the database  
-for example  
-0=100rs, 1=200rs, 2=750rs, 3=1500rs, 4=7500rs, 5=15000rs, 6=25000rs, 7=40000rs  
+3. Select which value bonds you want to add to the database ex 100 or 1500 or any prizebond value 
 4. wait for all the draws to be added to the database
 5. it should be done now, open the database to check or simply check its filesize 
 
