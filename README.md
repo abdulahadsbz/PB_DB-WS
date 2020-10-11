@@ -15,6 +15,10 @@ for example
 4. wait for all the draws to be added to the database
 5. it should be done now, open the database to check or simply check its filesize 
 
+## How To Access The Data
+1. install a sqlite3 database searcher
+2. open the PBDB.db file in it
+
 ## Why Does The Code Look So Messey
 ### Why  
 the code is in a very early stage i will improve it after im done with my other project
