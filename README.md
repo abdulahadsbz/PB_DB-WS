@@ -31,10 +31,16 @@ another reason maybe some network errors or if you may get
 a error telling you the bonds in a draw were very less (this error  
 is usually correct)  
 
-
 ## What Does It Do And How  
 it scrapes prize bond pages on https://hamariweb.com using the requests library after  
 scraping it parses it using bs4 and then it gets all the bond info like PrizeBondNumber,
 PrizeBondRank, PrizeBondValue, DrawNumber, DrawDate, DrawLocation to it and then adds all of these to a sqlite3
 database
 
+## TODO
+- make it put the bonds into a CSV file instead of a DB file
+- make the code look better
+- improve info.txt
+- add a error checking function
+- get data from an aditonal source (https://prizebond.net)
+- make a GUI for this (no promises)
